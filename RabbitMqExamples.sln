@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Quickstart", "1.Quickstart", "{56EE9BD5-5D53-4A73-9910-A73473DED818}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyNetqQuickstartSender", "EasyNetqQuickstartSender\EasyNetqQuickstartSender.csproj", "{ACCC4E17-367A-42FE-80F0-E6A31BCB42DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyNetqMessages", "EasyNetqMessages\EasyNetqMessages.csproj", "{3C2BBFC4-2A0B-4066-B870-6FAFDA2B5489}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyNetqQuickstartSubscriber", "EasyNetqQuickstartSubscriber\EasyNetqQuickstartSubscriber.csproj", "{39DBA888-80DB-466D-A291-3E901EC23B74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACCC4E17-367A-42FE-80F0-E6A31BCB42DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACCC4E17-367A-42FE-80F0-E6A31BCB42DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACCC4E17-367A-42FE-80F0-E6A31BCB42DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACCC4E17-367A-42FE-80F0-E6A31BCB42DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C2BBFC4-2A0B-4066-B870-6FAFDA2B5489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C2BBFC4-2A0B-4066-B870-6FAFDA2B5489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C2BBFC4-2A0B-4066-B870-6FAFDA2B5489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C2BBFC4-2A0B-4066-B870-6FAFDA2B5489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39DBA888-80DB-466D-A291-3E901EC23B74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39DBA888-80DB-466D-A291-3E901EC23B74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39DBA888-80DB-466D-A291-3E901EC23B74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39DBA888-80DB-466D-A291-3E901EC23B74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ACCC4E17-367A-42FE-80F0-E6A31BCB42DE} = {56EE9BD5-5D53-4A73-9910-A73473DED818}
+		{39DBA888-80DB-466D-A291-3E901EC23B74} = {56EE9BD5-5D53-4A73-9910-A73473DED818}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3899A99B-3B31-4086-9534-54B86B2227F5}
+	EndGlobalSection
+EndGlobal
