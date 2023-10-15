@@ -5,7 +5,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        using var bus = RabbitHutch.CreateBus("host=localhost");
+        using var bus = RabbitHutch.CreateBus("host=localhost;username=guest;password=guest");
 
         bus.PubSub.Subscribe<TextMessage>("test", HandleTextMessage);
 
