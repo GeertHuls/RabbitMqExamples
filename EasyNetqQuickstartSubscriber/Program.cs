@@ -1,11 +1,12 @@
 ﻿using EasyNetQ;
 using EasyNetqMessages;
+using static EasyNetqMessages.Constants;
 
 internal class Program
 {
     private static void Main(string[] args)
     {
-        using var bus = RabbitHutch.CreateBus("host=localhost;username=guest;password=guest");
+        using var bus = RabbitHutch.CreateBus(RabbitMqConnectionString);
 
         bus.PubSub.Subscribe<TextMessage>("test", HandleTextMessage);
 
