@@ -21,6 +21,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subscriber", "Subscriber\Su
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubscriberAsync", "SubscriberAsync\SubscriberAsync.csproj", "{FF5B22A7-EC58-46AD-9EDA-C348B99FAB76}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2.Publisher confirmation", "3.2.Publisher confirmation", "{956F32C8-D61E-4BCD-832F-2ADD619CC974}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PublishWithConfirm", "PublishWithConfirm\PublishWithConfirm.csproj", "{226169BD-E19B-41FC-BD09-99CC3C618258}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,10 @@ Global
 		{FF5B22A7-EC58-46AD-9EDA-C348B99FAB76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF5B22A7-EC58-46AD-9EDA-C348B99FAB76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF5B22A7-EC58-46AD-9EDA-C348B99FAB76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{226169BD-E19B-41FC-BD09-99CC3C618258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{226169BD-E19B-41FC-BD09-99CC3C618258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{226169BD-E19B-41FC-BD09-99CC3C618258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{226169BD-E19B-41FC-BD09-99CC3C618258}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +70,8 @@ Global
 		{9800A6DF-39AB-4E98-8AD0-BE3F9AB91C03} = {F0A42E19-1103-45D6-AE7A-8E9480D10417}
 		{A220F0B3-73A7-4E6E-BF15-FCF1DF3C2A0B} = {F0A42E19-1103-45D6-AE7A-8E9480D10417}
 		{FF5B22A7-EC58-46AD-9EDA-C348B99FAB76} = {F0A42E19-1103-45D6-AE7A-8E9480D10417}
+		{956F32C8-D61E-4BCD-832F-2ADD619CC974} = {8EA36692-D08E-44FA-84BF-17A4243449BE}
+		{226169BD-E19B-41FC-BD09-99CC3C618258} = {956F32C8-D61E-4BCD-832F-2ADD619CC974}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3899A99B-3B31-4086-9534-54B86B2227F5}
